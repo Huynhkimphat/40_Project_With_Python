@@ -64,20 +64,37 @@ def print_choice(yourChoice, botChoice):
     print("YOU: " + you + " BOT: " + bot)
 
 
-def status(result):
+def status(result, you, bot, draw):
     if result == 1:
-        return "YOU WIN"
+        return [you+1, bot, draw]
     elif result == -1:
-        return "YOU LOSE"
-    return "TIE"
+        return [you, bot+1, draw]
+    return [you, bot, draw+1]
+
+
+def after1game(you, bot, tie):
+    print("YOU: " + str(you)+" BOT: " + str(bot)+" TIE: " + str(tie))
+
+
+def to_sum_up(you, bot):
+    if you > bot:
+        return "YOU WIN"
+    elif you == bot:
+        return "TIE"
+    return "YOU LOSE"
 
 
 number_game = game_number()
+you_win = 0
+bot_win = 0
+draw = 0
 while number_game != 0:
     menu()
     your_choice = yourChoice()
     bot_choice = botChoice()
     print_choice(your_choice, bot_choice)
     result = process_game(bot_choice, your_choice)
-    print(status(result))
+    [you_win, bot_win, draw] = status(result, you_win, bot_win, draw)
+    after1game(you_win, bot_win, draw)
     number_game -= 1
+print(to_sum_up(you_win, bot_win))
