@@ -20,7 +20,13 @@ def game(choose):
 def main():
     menu()
     choose = choice()
-    return(game(choose))
+    while choose == 1:
+        print(random.randrange(1, 7))
+        print("Do you want to play again?\n(1/0)")
+        choose = choice()
+    else:
+        return "Thanks you"
 
 
-print(main())
+if __name__ == "__main__":
+    print(main())
