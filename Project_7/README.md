@@ -1,4 +1,4 @@
-# Project 6
+# Project 7
 
 ## Dice Rolling Simulator
 
