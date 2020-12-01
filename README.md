@@ -16,3 +16,4 @@
 - [7. Project 7- Dice Rolling Simulator](./Project_7)
 - [8. Project 8- Hangman Guess Game](./Project_8)
 - [9. Project 9- Email Slicer](./Project_9)
+- [10. Project 10- Binary search algorithm](./Project_10)
