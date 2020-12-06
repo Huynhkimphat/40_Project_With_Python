@@ -30,7 +30,7 @@ def process_game(bot_choice, your_choice):
             return 1
     if bot_choice == 3:
         if your_choice == 1:
-            return -1
+            return 1
         if your_choice == 2:
             return -1
 
@@ -94,6 +94,7 @@ while number_game != 0:
     bot_choice = botChoice()
     print_choice(your_choice, bot_choice)
     result = process_game(bot_choice, your_choice)
+    print(result)
     [you_win, bot_win, draw] = status(result, you_win, bot_win, draw)
     after1game(you_win, bot_win, draw)
     number_game -= 1
