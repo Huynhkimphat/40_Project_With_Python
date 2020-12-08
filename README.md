@@ -17,3 +17,4 @@
 - [8. Project 8- Hangman Guess Game](./Project_08)
 - [9. Project 9- Email Slicer](./Project_09)
 - [10. Project 10- Binary search algorithm](./Project_10)
+- [10. Project 11- Desktop Notifier App](./Project_11)
