@@ -20,3 +20,5 @@
 - [11. Project 11- Desktop Notifier App](./Project_11)
 - [12. Project 12- YouTube video downloader](./Project_12)
 - [13. Project 13- Python Website Blocker](./Project_13)
+- [14. Project 14- Spin a Yarn](./Project_14)
+- [15. Project 15- What’s the word?](./Project_15)
