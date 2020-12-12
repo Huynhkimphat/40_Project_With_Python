@@ -22,3 +22,4 @@
 - [13. Project 13- Python Website Blocker](./Project_13)
 - [14. Project 14- Spin a Yarn](./Project_14)
 - [15. Project 15- What’s the word?](./Project_15)
+- [16. Project 16- Leap it!](./Project_16)
