@@ -23,3 +23,4 @@
 - [14. Project 14- Spin a Yarn](./Project_14)
 - [15. Project 15- What’s the word?](./Project_15)
 - [16. Project 16- Leap it!](./Project_16)
+- [17. Project 17- Find out, Fibonacci!](./Project_17)
